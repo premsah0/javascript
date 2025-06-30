@@ -1,0 +1,39 @@
+# var, let, const
+-var is used in old version of js(es5)
+-var is function scoped => var apne parent fun me kbhi bhi use hoskta h
+-var add its self on window option. (window is a box of feature given by browser to use in js)
+-let, const is in latest version of js(es6)
+-let, const is braces scoped => only use or get acess inside of {....}
+-let,const didnt add on window option
+
+#heap memroy
+-any temprorly value we have to store
+like (1+2+3+4)= 1+2=3, 3+3=6, 6+4=10 the temprorly value like 3,4 gonnaa save on heap memroy
+
+#execution context
+-is a imaginary container where the function's code is executed and it's created whenever a function is called, its contains 3 things , variable , function, lexical environment.
+
+#lexical environment
+-is something like a chart where written this particular function can acess these things and also written which can not be acess , meand hold its scope and scope chain
+
+#js me anything you write they belongs on inly two types,   truthy n falsy
+-falsy value yeh hai = 0 false undefined null NAN document.all
+
+#switch {
+ case 1;
+    break;
+ case 2;
+    break;
+}
+
+#ForEach loop only used in a array means when you have to work on array then onlyy you can use ForEach, ForEach by default kbhi apne array change nhi krta... wo change krke apko temp array detaa hai...
+
+
+#forin loop
+only used in object means when you have to work on object
+
+#callback function
+a normal function code that we set or assign to execute a fun on time thats we called callback function
+
+#first class function
+in js there is a concept means you can use a fun as a value.

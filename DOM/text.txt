@@ -1,0 +1,12 @@
+#4 Pillers of DOM
+
+- selection of element
+we can select elements of html in js
+//selection of html
+// var a = document.querySelector("h1")
+// console.log(a.innerHTML)
+
+-changing of html 
+we can change the html part from js by selecting the element
+-changing CSS
+we can change the css by selecting css part in js
