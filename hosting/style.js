@@ -52,24 +52,24 @@ console.log('process ended');
 }
 
 orderPizza()
-// getCheese()
-//     .then((cheese) => {
-//         console.log('here is the cheese', cheese);
-//         return makeDough(cheese)
-//     })
-//     .then((dough) => {
-//         console.log('here is the dough', dough);
-//         return bakePizza(dough)
-//     })
-//     .then((pizza)=> {
-//         console.log('here is the pizza', pizza);
-//     })
-//     .catch(()=>{
-//         console.log('error', data);
+getCheese()
+    .then((cheese) => {
+        console.log('here is the cheese', cheese);
+        return makeDough(cheese)
+    })
+    .then((dough) => {
+        console.log('here is the dough', dough);
+        return bakePizza(dough)
+    })
+    .then((pizza)=> {
+        console.log('here is the pizza', pizza);
+    })
+    .catch(()=>{
+        console.log('error', data);
         
-//     })
-//     .finally(()=>{
-//         console.log("process end");
+    })
+    .finally(()=>{
+        console.log("process en");
         
-//     })
+    })
 
