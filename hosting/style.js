@@ -16,8 +16,8 @@ function makeDough(cheese) {
     setTimeout(()=>{
         
            const dough = cheese + "🫓";
-        // resolve(dough);   
-        reject('bad cheese')     
+        resolve(dough);   
+        // reject('bad cheese')     
         }, 2000) 
     })
         
@@ -51,29 +51,25 @@ console.log('process ended');
 
 }
 
-orderPizza()
-getCheese()
-    .then((cheese) => {
-        console.log('here is the cheese', cheese);
-        return makeDough(cheese)
-    })
-    .then((dough) => {
-        console.log('here is the dough', dough);
-        return bakePizza(dough)
-    })
-    .then((pizza)=> {
-        console.log('here is the pizza', pizza);
-    })
-    .catch(()=>{
-        console.log('error', data);
+// orderPizza()
+// getCheese()
+//     .then((cheese) => {
+//         console.log('here is the cheese', cheese);
+//         return makeDough(cheese)
+//     })
+//     .then((dough) => {
+//         console.log('here is the dough', dough);
+//         return bakePizza(dough)
+//     })
+//     .then((pizza)=> {
+//         console.log('here is the pizza', pizza);
+//     })
+//     .catch(()=>{
+//         console.log('error', data);
         
-    })
-    .finally(()=>{
-        console.log("process en");
+//     })
+//     .finally(()=>{
+//         console.log("process en");
         
-    })
-
-    console.log();
-    screen
-    
+//     })
 
