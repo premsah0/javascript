@@ -16,8 +16,8 @@ function makeDough(cheese) {
     setTimeout(()=>{
         
            const dough = cheese + "🫓";
-        resolve(dough);   
-        // reject('bad cheese')     
+        // resolve(dough);   
+        reject('bad cheese')     
         }, 2000) 
     })
         
