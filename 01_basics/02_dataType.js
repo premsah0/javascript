@@ -17,6 +17,6 @@ username = "bikash";
 // boolen =>true/false
 // null => standalone value
 // undefined =>
-// symbol => unique
+symbol => unique
 
 console.log(username);
