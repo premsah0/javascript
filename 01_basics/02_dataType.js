@@ -16,7 +16,7 @@ username = "bikash";
 // stringt  => ""
 // boolen =>true/false
 // null => standalone value
-// undefined =>
+undefined =>
 symbol => unique
 
 console.log(username);
